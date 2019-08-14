@@ -1,0 +1,96 @@
+Instalação:
+VS Code: https://code.visualstudio.com/
+Node (via Chocolatey): https://nodejs.org/en/
+NPM: https://www.npmjs.com/
+Yarn: https://yarnpkg.com/pt-BR/
+Insomnia (ou Postman): https://insomnia.rest/ ou https://www.getpostman.com/
+MongoDB Atlas: https://www.mongodb.com/cloud/atlas
+GitHub: https://github.com/
+MongoDB Compass Community: https://www.mongodb.com/products/compass
+
+Tema de Ícones do VS Code: Material Icon Theme
+
+Extensão do Chrome: Json Viewer
+Tema: Dracula
+
+Configuração package.json:
+"scripts": {
+    "dev": "nodemon src/server.js"
+}
+
+Comandos terminal:
+acessar o diretório do projeto
+mkdir backend
+cd backend
+yarn add nodemon -D
+yarn dev #e tratar o resto dos comandos via terminal numa outra aba, pois este ficará executando a aplicação initerruptamente
+yarn add mongoose
+yarn add axios
+yarn add cors
+
+Configuração Insomnia:
+Workspace: OmniStack 8.0
+New Request: Cadastrar dev
+URL: http://localhost:3333/devs
+Custom Method: POST
+</> TEXT: JSON
+Conteúdo:
+{
+	"username": "nelsondressler"
+}
+Clicar em Send
+
+Criação de BD:
+1. Entrar no MongoDB Atlas
+Clicar em Try Free
+Criar conta / Logar
+
+2. Clicar em Database Access (menu à esquerda)
+Clicar em Add New User (canto superior direito)
+Definir os dados:
+Login: omnistack
+Senha: omnistack
+User Privileges: Read and write any database
+e Clicar em Add User
+
+3. Clicar em Network Access (menu à esquerda)
+Clicar em Add IP Adress (canto superior direito)
+Selecionar Allow access from anywhere
+e Clicar em Confirm
+
+4. Clicar em Clusters (menu à esquerda)
+Clicar em Connect (dentro do sandbox)
+Selecionar Connect Your Application
+Definir os dados:
+Driver: Node.js
+Version: 3.0 or later
+Copiar o conteúdo de Connection String Only
+mongodb+srv://omnistack:<password>@cluster0-xd6cr.mongodb.net/test?retryWrites=true&w=majority
+Trocar o campo <password> pela senha definida
+Trocar o nome do banco test por omnistack8
+Usar a string para a conexão do mongoose na aplicação
+
+5. Clicar em Clusters (menu à esquerda)
+Clicar em Connect (dentro do sandbox)
+Selecionar Connect with MongoDB Compass
+Copiar o conteúdo de Connection String
+mongodb+srv://omnistack:<password>@cluster0-xd6cr.mongodb.net/test
+Abrir o MongoDB Compass
+Usar a string para a conexão com o Compass (o programa detecta a string copiada e preenche os campos automaticamente)
+Preencher a senha
+Clicar em Connect
+
+API do GitHub:
+https://api.github.com/users/<username>
+
+Conceitos JavaScript:
+Arrow Function
+Template String
+Desestruturação
+
+Métodos por Controller:
+Index: retornar uma lista de objetos do BD;
+Show: retornar um único objeto do BD;
+Store: inserir um objeto no BD;
+Update: atualizar um objeto no BD;
+Delete: excluir um objeto do BD.

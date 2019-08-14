@@ -1,0 +1,11 @@
+Tabela Dev:
+{
+  "_id": "5d52cb25eae6f53df03bbf29",
+  "name": "Nelson Jacob Dressler",
+  "user": "nelsondressler",
+  "bio": "Analista Programador na Castgroup. Apaixonado por desenvolvimento full-stack e data science.",
+  "avatar": "https://avatars2.githubusercontent.com/u/9471272?v=4",
+  "createdAt": "2019-08-13T14:37:25.623Z",
+  "updatedAt": "2019-08-13T14:37:25.623Z",
+  "__v": 0
+}
