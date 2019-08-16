@@ -1,3 +1,8 @@
+SEMANA OMNI STACK (ROCKETSEAT)
+
+Projeto Original:
+https://github.com/Rocketseat/semana-omnistack-8
+
 Instalação:
 VS Code: https://code.visualstudio.com/
 Node (via Chocolatey): https://nodejs.org/en/
@@ -17,6 +22,8 @@ Configuração package.json:
 "scripts": {
     "dev": "nodemon src/server.js"
 }
+
+1. CRIAÇÃO DO BACKEND
 
 Comandos terminal:
 acessar o diretório do projeto
@@ -65,7 +72,7 @@ Definir os dados:
 Driver: Node.js
 Version: 3.0 or later
 Copiar o conteúdo de Connection String Only
-mongodb+srv://omnistack:<password>@cluster0-xd6cr.mongodb.net/test?retryWrites=true&w=majority
+mongodb+srv://omnistack:omnistack@cluster0-xd6cr.mongodb.net/test?retryWrites=true&w=majority
 Trocar o campo <password> pela senha definida
 Trocar o nome do banco test por omnistack8
 Usar a string para a conexão do mongoose na aplicação
@@ -74,7 +81,7 @@ Usar a string para a conexão do mongoose na aplicação
 Clicar em Connect (dentro do sandbox)
 Selecionar Connect with MongoDB Compass
 Copiar o conteúdo de Connection String
-mongodb+srv://omnistack:<password>@cluster0-xd6cr.mongodb.net/test
+mongodb+srv://omnistack:omnistack@cluster0-xd6cr.mongodb.net/test
 Abrir o MongoDB Compass
 Usar a string para a conexão com o Compass (o programa detecta a string copiada e preenche os campos automaticamente)
 Preencher a senha
@@ -94,3 +101,25 @@ Show: retornar um único objeto do BD;
 Store: inserir um objeto no BD;
 Update: atualizar um objeto no BD;
 Delete: excluir um objeto do BD.
+
+Guia para versionamento:
+https://rogerdudler.github.io/git-guide/index.pt_BR.html
+
+2. CRIAÇÃO DO FRONTEND
+
+Comandos terminal:
+yarn create react-app frontend
+yarn start
+yarn add react-router-dom
+yarn add axios
+
+Conceitos JavaScript:
+Conteúdo JSX (HTML dentro de JS)
+
+Conceitos do React:
+Rotas
+Componentes
+Estados
+Propriedades
+React Hooks
+Links

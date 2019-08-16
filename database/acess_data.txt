@@ -1,0 +1,6 @@
+Connection String:
+mongodb+srv://omnistack:omnistack@cluster0-xd6cr.mongodb.net/test
+
+Hostname: cluster0-xd6cr.mongodb.net
+Username: omnistack
+Password: omnistack
