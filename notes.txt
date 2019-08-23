@@ -123,3 +123,17 @@ Estados
 Propriedades
 React Hooks
 Links
+
+3. CRIAÇÃO DO APP MOBILE
+Pré-requisitos:
+I - Instale o Chocolatey e as demais dependências: Instalando chocolatey
+II - Instale e configure a SDK do Android: Configurando SDK
+III - Instale e configure o emulador Genymotion: Configurando Emulador
+Link: https://docs.rocketseat.dev/ambiente-react-native/android/windows
+
+Comandos terminal:
+npx react-native init tindev
+yarn react-native run-android
+
+Documentação Completa do Rocketseat:
+https:/docs.rocketseat.dev
